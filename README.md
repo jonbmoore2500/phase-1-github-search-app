@@ -54,15 +54,15 @@ show all the repositories for that user.
 
 1. The `index.html` file has a form with a search input. When the form is
    submitted, it should take the value of the input and search GitHub for user
-   matches using the [User Search Endpoint](#user-search-endpoint).
+   matches using the [User Search Endpoint](#user-search-endpoint). COMPLETE
 2. Using the results of the search, display information about the users to the
    page. (You might include showing their username, avatar and a link to their
-   profile.)
+   profile.)COMPLETE
 3. Clicking on one of these users should send a request to the
    [User Repos Endpoint](#user-repos-endpoint) and return data about all the
-   repositories for that user.
+   repositories for that user.COMPLETE
 4. Using the response from the Users Repos Endpoint, display all the
-   repositories for that user on the page.
+   repositories for that user on the page.COMPLETE
 
 ## Bonus
 
