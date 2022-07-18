@@ -39,6 +39,8 @@ function handleGet() {
                 li.addEventListener('click', (e) => {
                     document.getElementById('repos-list').innerHTML = ''
                     //console.log(e.target.parentNode.parentNode.className)
+                    let elementsTest = document.getElementsByClassName('userListInfo')
+                    console.log('elementsTest', elementsTest)
                     if (e.target.parentNode.parentNode.className === 'userListInfo') {
                         // console.log(e.target.parentNode.parentNode)
                         // console.log(e.target.parentNode.parentNode.id)
